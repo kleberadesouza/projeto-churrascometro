@@ -1,7 +1,44 @@
-.container{
+.container {
+    font-family: Arial, Helvetica, sans-serif;
     max-width: 300px;
-margin:auto ;
-background-color: aliceblue;
-padding: 20px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 30px;
+}
 
+input{
+
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+
+
+button{
+
+    max-width: 400px;
+    border-radius: 50px;
+    margin: auto;
+}
+
+body{
+    
+    width: auto;
+    background-image: url(./images/fundo.jpg);
+}
+
+h1{
+    background-color: brown;
+    background-position: 100px;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
 }
