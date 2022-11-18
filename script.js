@@ -28,9 +28,9 @@ let qdtTotalCerveja = cervejaPP(duracao) * adultos;
 let qdtTotalBebidas = bebidasPP(duracao) * adultos + (bebidasPP(duracao) / 2 * criancas);
 
 
-resultado.innerHTML = `<p>${qdtTotalCarne / 1000}Kg de Carne</p>`
-resultado.innerHTML += `<p>${Math.ceil (qdtTotalCerveja / 355)}Latas de Cerveja</p>`
-resultado.innerHTML += `<p>${Math.ceil(qdtTotalBebidas / 2000)}Garrafas de Bebidas</p>`
+resultado.innerHTML = `<p>${qdtTotalCarne / 1000} Kg de Carne</p>`
+resultado.innerHTML += `<p>${Math.ceil (qdtTotalCerveja / 355)} Latas de Cerveja</p>`
+resultado.innerHTML += `<p>${Math.ceil(qdtTotalBebidas / 2000)} Garrafas de Bebidas</p>`
 
 }
 
